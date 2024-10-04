@@ -3,7 +3,8 @@
 
 int main(int argc, char* argv[]){
 
-  for(unsigned int i = 1; i < argc; i++){
+  for(int i = argc-1; i > 0; --i){
     std::cout << argv[i] << std::endl;
   }
+
 }
